@@ -12,11 +12,10 @@ import {
   Linkedin,
   Twitter
 } from 'lucide-react';
-import { useNavigate } from 'react-router';
+
 
 const SoftwareAgencyLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate();
   
   const ContactUs = () => {
     window.location.href = 'https://wa.me/+919270165215';
